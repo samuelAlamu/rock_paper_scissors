@@ -62,7 +62,7 @@ for (let index = 0; index < 5; index++) {
     //code
     playRound();
     console.log(`conter =${index}:Player point=${PlayerPoint}, Computer point=${ComputerPoint} `);
-
+ index==4?(alert(`Rond 5 \n Your score: ${PlayerPoint} \n Computer score: ${ComputerPoint}`)):(alert(`Rond ${index+1} \n Your score: ${PlayerPoint} \n Computer score: ${ComputerPoint}`));
 }
 let my = "Samuel";
 document.getElementById("Player").textContent = PlayerPoint;
